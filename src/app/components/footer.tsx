@@ -64,7 +64,7 @@ function Footers() {
                         <p className='mt-2  lg:pb-3 text-[12px] lg:text-[15px] '>ACCUEIL</p>
                         <Popover.Group className="flex lg:gap-x-12">
                           <Popover className="relative">
-                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[15px]    text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
+                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[12px] lg:text-[15px]   text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
                             <p   className='hidden lg:flex text-start'>Nos produits Diaspora</p>
                             <p className='block lg:hidden'>Produits Diaspora</p>
                               <ChevronDownIcon         
@@ -114,7 +114,7 @@ function Footers() {
                           </Popover.Group>
                           <Popover.Group className="flex lg:gap-x-12">
                           <Popover className="relative">
-                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[15px] text-start text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
+                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[12px] lg:text-[15px] text-start text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
                             Nos offres de Prêts
                               <ChevronDownIcon         
                                 className='h-7 w-7  flex-none text-[#fff] text-[15px] font-bold'
@@ -158,7 +158,7 @@ function Footers() {
 
                           <Popover.Group className="flex lg:gap-x-12">
                           <Popover className="relative">
-                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[15px]    text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
+                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[12px] lg:text-[15px]    text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
                             À propos
                               <ChevronDownIcon         
                                 className='h-7 w-7  flex-none text-[#fff] text-[15px] font-bold'
