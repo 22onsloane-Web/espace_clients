@@ -50,9 +50,9 @@ function Footers() {
                               </div>
                             </div>
                         </div>
-                    <div style={{display:bodypage}} className={`block lg:flex md:flex p-4 md:p-5 lg:px-5 lg:py-2 gap-y-10  items-center mx-auto`}>
+                    <div style={{display:bodypage}} className={`block lg:flex md:flex p-4 md:p-5 lg:px-5 lg:py-2   items-center mx-auto`}>
                     <div className='flex gap-x-9 lg:gap-x-0 md:block lg:flex lg:pb-10'>
-                    <div className='px-0 md:px-6 gap-y-5 h-[200px] w-[200px] md:w-auto'>
+                    <div className='px-0 md:px-6 gap-y-5 h-[270px] w-[200px] md:w-auto'>
                         <p className='mt-2 lg:pb-3 text-[12px] lg:text-[15px] '>CONTACT</p>
 
                         <p className='mt-2 text-[12px] lg:text-[15px]'>Email: diaspora@equitybcdc.cd</p>
@@ -60,12 +60,12 @@ function Footers() {
                         <p className='mt-2 text-[12px] lg:text-[15px]'>+243-996-018-000</p> 
                        
                     </div >
-                    <div className="px-0 md:px-6 gap-y-5 h-[200px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
+                    <div className="px-0 md:px-6 gap-y-5 h-[270px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
                         <p className='mt-2  lg:pb-3 text-[12px] lg:text-[15px] '>ACCUEIL</p>
                         <Popover.Group className="flex lg:gap-x-12">
                           <Popover className="relative">
                             <Popover.Button  className="flex outline-none items-center gap-x-4 text-[15px]    text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
-                            <p   className='hidden lg:flex'>Nos produits Diaspora</p>
+                            <p   className='hidden lg:flex text-start'>Nos produits Diaspora</p>
                             <p className='block lg:hidden'>Produits Diaspora</p>
                               <ChevronDownIcon         
                                 className='h-7 w-7  flex-none text-[#fff] text-[15px] font-bold'
@@ -114,7 +114,7 @@ function Footers() {
                           </Popover.Group>
                           <Popover.Group className="flex lg:gap-x-12">
                           <Popover className="relative">
-                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[15px]    text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
+                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[15px] text-start text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
                             Nos offres de Prêts
                               <ChevronDownIcon         
                                 className='h-7 w-7  flex-none text-[#fff] text-[15px] font-bold'
@@ -208,12 +208,12 @@ function Footers() {
                     </div>
                     </div>
                    <div className='flex gap-x-9 lg:gap-x-0 md:block lg:flex lg:pb-10'>
-                   <div className="px-0 md:px-6 gap-y-5 h-[200px] w-[200px] md:w-auto">
+                   <div className="px-0 md:px-6 gap-y-5 h-[270px] w-[200px] md:w-auto">
                         <p className='mt-2 lg:pb-3  text-[12px] lg:text-[15px] '>ACTUALITÉS</p>
                         <p className='text-[12px] lg:text-[15px]'>Communique de presse</p>
                        
                     </div>
-                    <div className="px-0 md:px-6 gap-y-5 h-[200px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
+                    <div className="px-0 md:px-6 gap-y-5 h-[270px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
                         <p className='mt-2  lg:pb-3 text-[12px] lg:text-[15px] '>QUI SOMMES-NOUS?</p>
                         <p className='text-[12px] lg:text-[15px]'>A propos de EquityBCDC</p>
                         <p className='mt-2 text-[12px] lg:text-[15px]'>Nos partenaires</p>
@@ -223,7 +223,7 @@ function Footers() {
                    </div>
 
                     <div id='footerss' className='flex gap-x-9 lg:gap-x-0 md:block lg:flex lg:pb-10'>
-                    <div className="px-0 md:px-6 gap-y-5 h-[200px] w-[200px] md:w-auto">
+                    <div className="px-0 md:px-6 gap-y-5 h-[270px] w-[200px] md:w-auto">
                         <p className='mt-2  lg:pb-3 text-[12px] lg:text-[15px] '>HORAIRE DE L'AGENCE</p>
                         <p className='text-[12px] lg:text-[15px]'>Du lundi au vendredi : 8h30 à 16h00</p>
                         <p className='text-[12px] lg:text-[15px]'>Mercredi : retrait commande carte sur rendez-vous</p>
@@ -231,7 +231,7 @@ function Footers() {
                         <p className='mt-2 text-[12px] lg:text-[15px]'>Dimanche/jours fériés : fermée</p>
                         <p className='mt-2 text-[12px] lg:text-[15px]'>55 Bd du 30 Juin, Kinshasa, Gombe</p>
                     </div>
-                    <div className="px-0 md:px-6 gap-y-5 h-[200px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
+                    <div className="px-0 md:px-6 gap-y-5 h-[270px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
                     <div className="flex py lg:pb-3 -1 gap-x-0">
                     <div><SocialIcon url="https://www.facebook.com/EquityBCDC/" fgColor='#fff' bgColor='transparent' style={{ height: 44, width: 44 }} /></div>
                     <div><SocialIcon url="https://twitter.com/EquityBCDC" fgColor='#fff' bgColor='transparent' style={{ height: 44, width: 44 }}  /></div>

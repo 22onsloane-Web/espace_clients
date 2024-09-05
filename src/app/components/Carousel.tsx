@@ -71,7 +71,7 @@ const Slideshow = () => {
           <img src={pic4.src} alt="" className='h-auto w-full sm:w-[270px] md:w-[270px] lg:w-[330px] shadow-lg rounded-xl' /> */}
 
           {images.map((image, index) => (
-            <img key={index} src={image.src} alt={`Slide ${index}`} className="h-auto mr-0 lg:mr-[4px] w-full md:w-[400px] lg:w-[301px] lg:h-[220px] lg:px-2 rounded-[10px]" />
+            <img key={index} src={image.src} alt={`Slide ${index}`} className="h-auto mr-0 lg:mr-[4px] w-full md:w-[400px] lg:w-[301px] lg:h-[220px] lg:px-2 " />
           ))}
           
         </div>
