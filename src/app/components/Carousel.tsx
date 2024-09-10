@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState,useEffect } from 'react';
 import head1 from "./img/head1.jpg"
 import head2 from "./img/head2.jpg"
@@ -71,20 +72,20 @@ const Slideshow = () => {
           <img src={pic4.src} alt="" className='h-auto w-full sm:w-[270px] md:w-[270px] lg:w-[330px] shadow-lg rounded-xl' /> */}
 
           {images.map((image, index) => (
-            <img key={index} src={image.src} alt={`Slide ${index}`} className="h-auto mr-0 lg:mr-[4px] w-full md:w-[400px] lg:w-[301px] lg:h-[220px] lg:px-2 " />
+            <img key={index} src={image.src} alt={`Slide ${index}`} className="h-auto mr-0 lg:mr-[4px] w-full md:w-[400px] lg:w-[380px] lg:h-auto py-[3vw] lg:px-2 hover:scale-125 transition hover:ease-out duration-700" />
           ))}
           
         </div>
           </div>
        <div className='md:max-w-screen-lg flex space-x-[80%] md:space-x-[85%] lg:space-x-[77%]'>
        <button
-          className="absolute mt-[-35%] md:mt-[-130px]  bg-black bg-opacity-50 px-0 py-1 rounded-full"
+          className="absolute mt-[-35%] md:mt-[-11vw]  bg-black bg-opacity-50 px-0 py-1 rounded-full"
           onClick={prevSlide}
         >
           <ChevronLeftIcon className="h-6 w-11 text-white " aria-hidden="true" />
         </button>
         <button
-          className="absolute mt-[-35%] md:mt-[-130px]  bg-black bg-opacity-50 px-0 py-1 rounded-full"
+          className="absolute mt-[-35%] md:mt-[-11%]  bg-black bg-opacity-50 px-0 py-1 rounded-full"
           onClick={nextSlide}
         >
           <ChevronRightIcon className="h-6 w-11 text-white " aria-hidden="true" />
