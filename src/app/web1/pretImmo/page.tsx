@@ -22,7 +22,7 @@ function pretImmo() {
                         transition={{duration:1.2}}
                         viewport={{once:true}} className='h-auto md:h-[750px] items-center justify-center px-0  lg:px-5 md:px-[50px] mx-auto flex'>
               <div className='px-0 md:px-5 lg:px-0 mt-4 md:mt-0'>
-              <p className='text-[25px] px-2 md:px-0 md:text-start md:text-[32px] font-medium text-[#a22a2b] '>Qu’Est-ce que le Prêt Immo Diaspora ?</p>
+              <p className='text-[25px] px-2 md:px-0 md:text-start md:text-[32px] font-medium text-[#a22a2b] '>Qu’est-ce que le Prêt Immo Diaspora ?</p>
               <div className='text-start text-[18px] font-medium w-full lg:w-[650px] px-5 md:px-[50px] lg:px-3  mt-2 space-y-3'>
                 <p>•	C’est une offre de crédit destinée aux congolais d’origine ou de nationalité vivants à l’étranger et ayant ou visant des intérêts économiques au pays dans le secteur immobilier.</p>
                 <p> </p>

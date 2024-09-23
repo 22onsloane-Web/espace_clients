@@ -226,7 +226,6 @@ function Footers() {
                     <div className="px-0 md:px-6 gap-y-5 h-[270px] w-[200px] md:w-auto">
                         <p className='mt-2  lg:pb-3 text-[12px] lg:text-[15px] '>HORAIRE DE L'AGENCE</p>
                         <p className='text-[12px] lg:text-[15px]'>Du lundi au vendredi : 8h30 à 16h00</p>
-                        <p className='text-[12px] lg:text-[15px]'>Mercredi : retrait commande carte sur rendez-vous</p>
                         <p className='mt-2 text-[12px] lg:text-[15px]'>Samedi : sur rendez-vous uniquement</p>
                         <p className='mt-2 text-[12px] lg:text-[15px]'>Dimanche/jours fériés : fermée</p>
                         <p className='mt-2 text-[12px] lg:text-[15px]'>55 Bd du 30 Juin, Kinshasa, Gombe</p>

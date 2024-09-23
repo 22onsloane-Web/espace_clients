@@ -14,8 +14,7 @@ function Diasporabanking() {
               <div className=''>
                 <p className='md:text-[35px] text-[25px] font-medium text-center text-[#a22a2b]'>  À propos de nous</p>
                 <div className='text-[18px]  text-start w-full lg:w-[650px] mt-5 space-y-7'>
-                <p className=''>Vous êtes congolais vivant à l’étranger ? profitez du service Diaspora Banking.
-                Gérez vos comptes, épargnez, transférez de l’argent depuis l’étranger et profitez de notre large gamme de produits et services financiers.</p>
+                <p className=''>Vous êtes congolais vivant à l’étranger ? Profitez du service Diaspora Banking. Gérez vos comptes, épargnez, transférez de l’argent depuis l’étranger et profitez de notre large gamme de produits et services financiers.</p>
 
                 <p>En effet, le service Diaspora Banking d'Equity BCDC s'adresse à tous les Congolais vivant à l'extérieur du pays pour plus de six mois, c'est à dire, pouvant justifier d'un domicile et d'une source de revenus à l'étranger. Ce service permet à notre clientèle de passer des ordres, d'effectuer des opérations et/ou de souscrire à nos différents produits bancaires, à distance.</p>
 

@@ -1,6 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import carteRed from './img/cartebank.png'
+import card1 from "./img/Carte_prepaid.jpg"
+import card2 from "./img/Carte_credit.jpg"
+import card3 from "./img/Carte_classique.jpg"
+import card4 from "./img/Carte_gold.jpg"
+import card5 from "./img/Carte_Platinuim.jpg"
+import card6 from "./img/Carte_infinite.jpg"
 import carteBlack from './img/carte.png'
 export default function CarteBancaire() {
   return (
@@ -13,13 +19,14 @@ export default function CarteBancaire() {
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Mastercard prépayée</p>
                 <p className='text-[20px] font-semibold text-[#636569]'>Cartes prépayées</p> 
                 <div className='text-start text-[14px] px-2 w-full lg:w-[350px] h-[180px]'>
-                    <p>- Prix : 10 USD +TVA</p>
+                    <Image src={card1} alt='' />
+                    {/* <p>- Prix : 10 USD +TVA</p>
                     <p>- Très flexible pour les transactions internet</p>
                     <p>- Frais de recharge 1% min 1.5$</p>
                     <p>- 1%+TVA en local et 1.2% à l’étranger limite 5000 USD </p>
                     <p>- Lier à un pool account</p>
                     <p>- Limite dépôt 5000 USD / jour</p>
-                    <p>- Limite journalière retrait 2500 USD</p>
+                    <p>- Limite journalière retrait 2500 USD</p> */}
                    
                 </div>
                 <div className='px-0 pt-3'>

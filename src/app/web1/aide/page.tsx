@@ -15,9 +15,15 @@ import { Bars3Icon, XMarkIcon, EnvelopeIcon, QuestionMarkCircleIcon, UserCircleI
 import {ChevronRightIcon, ChevronLeftIcon } from '@heroicons/react/24/outline';
 import { CheckIcon } from '@heroicons/react/20/solid'
 import Questions from '@/app/components/Questions'
+import { sendEmail } from '../../../../lib/resend'
 
 
 function Aide() {
+
+    function send() {
+        sendEmail();
+        console.log("email sent, email sent")
+    }
  
   return (
     <div  className='scroll-smooth pb-[20px] bg-[#fff]'>
@@ -55,14 +61,14 @@ function Aide() {
                 <input type="text" placeholder='Numéro de contact' className='w-full px-7 mt-3 lg:mt-0 md:mt-0  md:w-[265px]  lg:w-[290px] pl-4 py-2 text-[#292929] border-[#a22a2b] hover:border-[#a22a2b] rounded-[5px] border-[2px] ' />
             </div>
             <select id="dropdownTextbox" className=' w-full px-7 mt-2 md:w-[542px] lg:w-[542px] pl-4 py-2 text-[#292929] border-[#a22a2b] hover:border-[#a22a2b] rounded-[5px] border-[2px] '>
-            <option value="" selected disabled hidden>Requête/Compliment/Plainte</option>
+            <option value="" selected disabled hidden>Votre type de demande</option>
             <option value="Requête">Requête</option>
             <option value="Compliment">Compliment</option>
             <option value="Plainte">Plainte</option>
             </select>
             <div>
             <select id="dropdownTextbox" className='w-full px-10 mt-2 md:w-[542px] lg:w-[542px] pl-4 py-2 text-[#292929] border-[#a22a2b] hover:border-[#a22a2b] rounded-[5px] border-[2px] '>
-                <option className='py-4 bg-[#a22a2b] text-black hover:bg-[#a22a2b] hover:text-white' value="" selected disabled hidden>Ouverture de compte/Commande Carte/Réactivation de Compte/ Demande de prêt / Autres</option>
+                <option className='py-4 bg-[#a22a2b] text-black hover:bg-[#a22a2b] hover:text-white' value="" selected disabled hidden>Votre type d’opération</option>
                 <option className='mt-10 bg-white text-black hover:bg-[#a22a2b] hover:text-white' value="Ouverture de compte">Ouverture de compte</option>
                 <option value="Commande Carte">Commande Carte</option>
                 <option value="Réactivation de Compte">Réactivation de Compte</option>
@@ -77,6 +83,10 @@ function Aide() {
            </div>
          
         </div>
+        <form action={send} className='h-[10vw]'>
+
+            <button type='submit' className='text-white bg-[#a22a2b]'>Send</button>
+        </form>
         <div id='contact' className='text-black items-center mx-auto w-full px-0 lg:px-[250px] mt-[40px] '>
                     <div  className=' px-4 md:px-0 w-full space-y-3 font-medium'>
                         <p className='text-[25px] text-center'>Contactez-Nous :</p>
@@ -84,10 +94,10 @@ function Aide() {
                     <p>Nos horaires d'ouverture sont les suivants :</p>
                     <div className='flex '>
                     <CheckIcon className="h-6 w-11 text-[#a22a2b] " aria-hidden="true" />
-                        <p>Du lundi au vendredi : de 08h00 à 18h00</p></div>
+                        <p>Du lundi au vendredi : de 08h00 à 16h00</p></div>
                     <div className='flex'>
                     <CheckIcon className="h-6 w-11 text-[#a22a2b] " aria-hidden="true" />
-                        <p>Les samedis : de 8h00 à 13h00</p>
+                        <p>Samedi : sur rendez-vous uniquement</p>
                     </div>
                     </div>
         </div>

@@ -217,6 +217,7 @@ function Credit() {
             <p className='text-[20px] font-medium'>TARIFICATIONS</p>
             <div>
               <p>•	Dépôt initial minimum : 100 USD ou équivalent </p>
+              <p className='font-bold'>•TVA 16% </p>
             </div>
           </div>
         </div>
@@ -262,6 +263,7 @@ function Credit() {
             <p className='text-[20px] font-medium'>TARIFICATIONS</p>
             <div>
               <p>•	Sur demande</p>
+              <p className='font-bold'>•TVA 16% </p>
             </div>
           </div>
         </div>
@@ -305,6 +307,7 @@ function Credit() {
             <div>
               <p>•	Dépôt initial minimum : 100 USD ou équivalent </p>
               <p>•	Frais services digitaux : 1 USD/Euro + TVA ou équivalent en CDF par mois </p>
+              <p className='font-bold'>•TVA 16% </p>
             </div>
           </div>
         </div>
