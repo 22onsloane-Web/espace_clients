@@ -170,7 +170,7 @@ export default function CarteBancaire() {
 
         <Dialog
       as="div"
-      className="fixed inset-0 flex items-center w-full px-5 lg:px-[650px] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
+      className="fixed inset-0 flex items-center w-full px-5 lg:px-[30vw] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
       open={loginOpen2}
       onClose={setLoginOpen2}
     >
@@ -204,7 +204,7 @@ export default function CarteBancaire() {
     
     <Dialog
       as="div"
-      className="fixed inset-0 flex items-center w-full px-5 lg:px-[650px] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
+      className="fixed inset-0 flex items-center w-full px-5 lg:px-[30vw] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
       open={loginOpen3}
       onClose={setLoginOpen3}
     >
@@ -235,7 +235,7 @@ export default function CarteBancaire() {
 
     <Dialog
       as="div"
-      className="fixed inset-0 flex items-center w-full px-5 lg:px-[650px] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
+      className="fixed inset-0 flex items-center w-full px-5 lg:px-[30vw] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
       open={loginOpen4}
       onClose={setLoginOpen4}
     >
@@ -264,7 +264,7 @@ export default function CarteBancaire() {
 
     <Dialog
       as="div"
-      className="fixed inset-0 flex items-center w-full px-5 lg:px-[650px] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
+      className="fixed inset-0 flex items-center w-full px-5 lg:px-[30vw] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
       open={loginOpen5}
       onClose={setLoginOpen5}
     >
@@ -295,7 +295,7 @@ export default function CarteBancaire() {
 
     <Dialog
       as="div"
-      className="fixed inset-0 flex items-center w-full px-5 lg:px-[650px] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
+      className="fixed inset-0 flex items-center w-full px-5 lg:px-[30vw] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
       open={loginOpen6}
       onClose={setLoginOpen6}
     >
@@ -329,7 +329,7 @@ export default function CarteBancaire() {
 
     <Dialog
       as="div"
-      className="fixed inset-0 flex items-center w-full px-5 lg:px-[650px] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
+      className="fixed inset-0 flex items-center w-full px-5 lg:px-[30vw] rounded-[15px] justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none "
       open={loginOpen7}
       onClose={setLoginOpen7}
     >
