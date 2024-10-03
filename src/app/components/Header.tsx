@@ -371,13 +371,13 @@ return(
           <Popover.Panel className="absolute bg-white  top-full z-10 mt-3 w-[200px]  overflow-hidden hover:cursor-pointer  shadow-lg text-[#646464] ">
             <div className=" gap-y-3">
                   <div onClick={creditroute} className="w-full pl-2 py-3 mt-1 text-black hover:text-white hover:bg-[#a22a2b] bg-white">
-                  <Link href="#"  >
+                  <Link href="/web1/nouveautes"  >
                   Nouveautés
                   </Link>
                   </div>
                   
                   <div onClick={creditroute} className="w-full pl-2 py-3 mt-1 text-black hover:text-white hover:bg-[#a22a2b] bg-white">
-                  <Link href="#"  >
+                  <Link href="/web1/communiquesdepresse"  >
                   Communiqués de presse
                   </Link>
                   </div>
@@ -659,12 +659,12 @@ return(
           <Popover.Panel className="absolute ml-10 bg-white  top-full z-10 mt-3 w-[200px]  overflow-hidden hover:cursor-pointer  shadow-lg text-[#646464] ">
             <div className=" gap-y-3">
             <div onClick={creditroute} className="w-full pl-2 py-3 mt-1 text-black hover:text-white hover:bg-[#a22a2b] bg-white">
-              <Link href="#"  >
+              <Link href="/web1/nouveautes"  >
               Nouveautés
                   </Link>
             </div>
             <div onClick={creditroute} className="w-full pl-2 py-3 mt-1 text-black hover:text-white hover:bg-[#a22a2b] bg-white">
-            <Link href="#" >
+            <Link href="/web1/communiquesdepresse" >
               
             Communiqués de presse
                   </Link>
