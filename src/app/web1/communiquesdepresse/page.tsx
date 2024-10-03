@@ -8,7 +8,7 @@ export default function page() {
     <motion.div initial={{y: 200, opacity:0}}
                               whileInView={{y:0, opacity:1}}
                         transition={{duration:1.2}}
-                        viewport={{once:true}} className='bg-[#a22a2b] rounded-[10px] text-[6vw] md:text-[2.5vw] text-[#fff] font-semibold px-[5vw] md:px-[10vw] py-[5vw] animate-pulse'>
+                        viewport={{once:true}} className='bg-[#a22a2b] rounded-[10px] text-[6vw] md:text-[2.5vw] text-[#fff] font-semibold px-[5vw] md:px-[10vw] py-[5vw] '>
         <p>Visitez cette page pour rester au courant des activités, évènements, et mises à jour sur Equity BCDC Diaspora Banking.</p>
       </motion.div>
     </div>
