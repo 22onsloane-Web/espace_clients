@@ -9,7 +9,7 @@ export default function page() {
                               whileInView={{y:0, opacity:1}}
                         transition={{duration:1.2}}
                         viewport={{once:true}} className='bg-[#a22a2b] rounded-[10px] text-[6vw] md:text-[2.5vw] text-[#fff] font-semibold px-[5vw] md:px-[10vw] py-[5vw] animate-pulse'>
-        <p>Nous vous tiendrons au courant sur cette page de nouveautés de produits, services et promotions dès que lancés. Restez branchés !</p>
+        <p>Nous vous tiendrons au courant sur cette page de nouveautés de produits, services et promotions dès que lancés. Restez connectés !</p>
       </motion.div>
     </div>
     </div>
