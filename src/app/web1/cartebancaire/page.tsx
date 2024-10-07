@@ -184,8 +184,7 @@ export default function CarteBancaire() {
         <div className=' rounded-[15px]'>
           <p className='bg-[#a22a2b] text-center text-[30px] rounded-t-[14px]  w-full py-3 text-white'>Mastercard prépayée</p>
          
-          <div className='px-[5vw] pb-[2vw] text-black'>
-            <p className=' py-[1vw] text-[25px]   w-full '>Cartes prépayées</p>
+          <div className='px-[5vw] py-[2vw] text-black '>
                 <p>- Prix : 10 USD + <span className='font-bold'>TVA 16%</span></p>
                 <p>- Très flexible pour les transactions internet</p>
                 <p>- Frais de recharge 1% min 1.5$ + <span className='font-bold'>TVA 16%</span></p>
@@ -218,11 +217,11 @@ export default function CarteBancaire() {
         <div className=' rounded-[15px]'>
           <p className='bg-[#a22a2b] text-center text-[30px] rounded-t-[14px]  w-full py-3 text-white'>Mastercard Crédit</p>
          
-          <div className='px-[5vw] pb-[2vw] text-black'>
-            <p className=' py-[1vw] text-[25px]   w-full '>Cartes de crédit</p>
-                <p>Prix de la carte : 50 USD + <span className='font-bold'>TVA 16%</span></p>
-                <p>Client cible : Client entrepreneur</p>
-                <p>Frais de retrait : DAB/GAB EBCDC : 2,5 % du montant retiré +16% TVA, minimum 5 USD</p>
+          <div className='px-[5vw] py-[2vw] text-black '>
+
+                <p>- Prix de la carte : 50 USD + <span className='font-bold'>TVA 16%</span></p>
+                <p>- Client cible : Client entrepreneur</p>
+                <p>- Frais de retrait : DAB/GAB EBCDC : 2,5 % du montant retiré +16% TVA, minimum 5 USD</p>
 
           </div>
           <div>
@@ -249,8 +248,8 @@ export default function CarteBancaire() {
         <div className=' rounded-[15px]'>
           <p className='bg-[#a22a2b] text-center text-[30px] rounded-t-[14px]  w-full py-3 text-white'>Visa Classique</p>
          
-          <div className='px-[5vw] pb-[2vw] text-black'>
-            <p className=' py-[1vw] text-[25px]   w-full '>Cartes internationales            </p>
+          <div className='px-[5vw] py-[2vw] text-black '>
+
                 <p>- Prix de la carte : 30 USD + <span className='font-bold'>TVA 16%</span></p>
                 <p>- Limite journalière : retrait 2500 USD et Paiement/Achat en ligne : 3500 USD</p>
           </div>
@@ -278,8 +277,8 @@ export default function CarteBancaire() {
         <div className=' rounded-[15px]'>
           <p className='bg-[#a22a2b] text-center text-[30px] rounded-t-[14px]  w-full py-3 text-white'>Visa Gold</p>
          
-          <div className='px-[5vw] pb-[2vw] text-black'>
-            <p className=' py-[1vw] text-[25px]   w-full '>Cartes prépayées</p>
+          <div className='px-[5vw] py-[2vw] text-black '>
+
                 <p>- Prix : 75 USD + <span className='font-bold'>TVA 16%</span></p>
                 <p>- Flexible pour les transactions en ligne</p>
                 <p>- Limite journalière très élevé 5000 USD retrait et 7500 USD achat</p>
@@ -309,15 +308,15 @@ export default function CarteBancaire() {
         <div className=' rounded-[15px]'>
           <p className='bg-[#a22a2b] text-center text-[30px] rounded-t-[14px]  w-full py-3 text-white'>Visa Platinum</p>
          
-          <div className='px-[5vw] pb-[2vw] text-black'>
-            <p className=' py-[1vw] text-[25px]   w-full '>Cartes prestige</p>
-            <p>Prix : 150 USD + <span className='font-bold'>TVA 16%</span></p>
-            <p>Cible : segment fortuné, revenus élevés, voyage fréquemment, dépenses modérées</p>
-            <p>Limite journalière retrait 5000 USD et paiement 7500 USD</p>
-            <p>Remplacement carte en cas de vol ou perte</p>
-            <p>Dépannage en cash</p>
-            <p>Assistance médical</p>
-            <p>Assistance juridique</p>
+          <div className='px-[5vw] py-[2vw] text-black '>
+
+            <p>- Prix : 150 USD + <span className='font-bold'>TVA 16%</span></p>
+            <p>- Cible : segment fortuné, revenus élevés, voyage fréquemment, dépenses modérées</p>
+            <p>- Limite journalière retrait 5000 USD et paiement 7500 USD</p>
+            <p>- Remplacement carte en cas de vol ou perte</p>
+            <p>- Dépannage en cash</p>
+            <p>- Assistance médical</p>
+            <p>- Assistance juridique</p>
           </div>
           <div>
 
@@ -343,16 +342,16 @@ export default function CarteBancaire() {
         <div className=' rounded-[15px]'>
           <p className='bg-[#a22a2b] text-center text-[30px] rounded-t-[14px]  w-full py-3 text-white'>Visa Infinite</p>
          
-          <div className='px-[5vw] pb-[2vw] text-black'>
-            <p className=' py-[1vw] text-[25px]   w-full '>Cartes Prestiges</p>
-                <p>- Prix : 10 USD + </p>
-                <p>Prix : 150 USD + <span className='font-bold'>TVA 16%</span></p>
-                <p>Cible : segment fortuné, revenus élevés, voyage fréquemment, dépenses modérées</p>
-                <p>Limite journalière retrait 5000 USD et paiement 7500 USD</p>
-                <p>Remplacement carte en cas de vol ou perte</p>
-                <p>Dépannage en cash</p>
-                <p>Assistance médical</p>
-                <p>Assistance juridique</p>
+          <div className='px-[5vw] py-[2vw] text-black '>
+
+     
+                <p>- Prix : 150 USD + <span className='font-bold'>TVA 16%</span></p>
+                <p>- Cible : segment fortuné, revenus élevés, voyage fréquemment, dépenses modérées</p>
+                <p>- Limite journalière retrait 5000 USD et paiement 7500 USD</p>
+                <p>- Remplacement carte en cas de vol ou perte</p>
+                <p>- Dépannage en cash</p>
+                <p>- Assistance médical</p>
+                <p>- Assistance juridique</p>
 
           </div>
           <div>
