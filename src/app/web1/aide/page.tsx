@@ -83,10 +83,6 @@ function Aide() {
            </div>
          
         </div>
-        <form action={send} className='h-[10vw]'>
-
-            <button type='submit' className='text-white bg-[#a22a2b]'>Send</button>
-        </form>
         <div id='contact' className='text-black items-center mx-auto w-full px-0 lg:px-[250px] mt-[40px] '>
                     <div  className=' px-4 md:px-0 w-full space-y-3 font-medium'>
                         <p className='text-[25px] text-center'>Contactez-Nous :</p>

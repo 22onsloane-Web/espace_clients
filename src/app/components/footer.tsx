@@ -64,15 +64,27 @@ function Footers() {
                         <p className='mt-2  lg:pb-3 text-[12px] lg:text-[15px] '>ACCUEIL</p>
                         <Popover.Group className="flex lg:gap-x-12">
                           <Popover className="relative">
-                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[12px] lg:text-[15px]   text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
+                            <Popover.Button  className=" outline-none items-center gap-x-4 text-[12px] lg:text-[15px]   text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
                             <p   className='hidden lg:flex text-start'>Nos produits Diaspora</p>
                             <p className='block lg:hidden'>Produits Diaspora</p>
-                              <ChevronDownIcon         
+                              {/* <ChevronDownIcon         
                                 className='h-7 w-7  flex-none text-[#fff] text-[15px] font-bold'
                                 aria-hidden="true"
-                              />
+                              /> */}
+                              <div className='px-[1vw] space-y-[10px]'>
+                                <div  className='hover:scale-110 transition duration-300 hover:ease-in '>
+                                <Link href="/web1/credit" ><p>- Comptes</p></Link>
+                                </div>
+                                <div  className='hover:scale-110 transition duration-300 hover:ease-in '>
+                                <Link href="/web1/cartebancaire" ><p>- Cartes Bancaires</p></Link>
+                                </div>
+                                <div  className='hover:scale-110 transition duration-300 hover:ease-in '>
+                                <Link href="/web1/packdiaspora" ><p>- Packs Diaspora</p></Link>
+                                </div>
+                                
+                              </div>
                             </Popover.Button>
-                            <Transition
+                            {/* <Transition
                               as={Fragment}
                               enter="transition ease-out duration-700"
                               enterFrom="opacity-0 translate-y-1"
@@ -109,19 +121,29 @@ function Footers() {
                                 </div>
 
                               </Popover.Panel>
-                            </Transition>
+                            </Transition> */}
                           </Popover>
                           </Popover.Group>
                           <Popover.Group className="flex lg:gap-x-12">
                           <Popover className="relative">
-                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[12px] lg:text-[15px] text-start text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
+                            <Popover.Button  className=" outline-none items-center gap-x-4 text-[12px] lg:text-[15px] text-start text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
                             Nos offres de Prêts
-                              <ChevronDownIcon         
+                              {/* <ChevronDownIcon         
                                 className='h-7 w-7  flex-none text-[#fff] text-[15px] font-bold'
                                 aria-hidden="true"
-                              />
+                              /> */}
+                               <div className='px-[1vw] space-y-[10px]'>
+                                <div  className='hover:scale-110 transition duration-300 hover:ease-in '>
+                                <Link href="/web1/pretImmo" ><p>- Prêt Immo Diaspora</p></Link>
+                                </div>
+                                <div  className='hover:scale-110 transition duration-300 hover:ease-in '>
+                                <Link href="/web1/simulateur" ><p>- Simulateurs</p></Link>
+                                </div>
+                                
+                              </div>
                             </Popover.Button>
-                            <Transition
+
+                            {/* <Transition
                               as={Fragment}
                               enter="transition ease-out duration-700"
                               enterFrom="opacity-0 translate-y-1"
@@ -152,20 +174,29 @@ function Footers() {
                                 </div>
 
                               </Popover.Panel>
-                            </Transition>
+                            </Transition> */}
                           </Popover>
                           </Popover.Group>
 
-                          <Popover.Group className="flex lg:gap-x-12">
+              
+                    </div>
+                    <div className="px-0 md:px-6 gap-y-5 h-[270px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
+                        <p className='mt-2  lg:pb-3 text-[12px] lg:text-[15px] '>A propos</p>
+                        <Popover.Group className="flex lg:gap-x-12">
                           <Popover className="relative">
-                            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[12px] lg:text-[15px]    text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
-                            À propos
-                              <ChevronDownIcon         
-                                className='h-7 w-7  flex-none text-[#fff] text-[15px] font-bold'
-                                aria-hidden="true"
-                              />
+                            <Popover.Button  className=" outline-none items-center gap-x-4 text-[12px] lg:text-[15px]   text-[#fff] border-none hover:border-none"> {/* onClick={changes} */}
+                         
+                              <div className='px-[1vw] space-y-[10px]'>
+                                <div  className='hover:scale-110 transition duration-300 hover:ease-in '>
+                                <Link href="/web1/diasporabanking" ><p>-     À propos de nous</p></Link>
+                                </div>
+                                <div  className='hover:scale-110 transition duration-300 hover:ease-in '>
+                                <Link href="/web1/portailclient" ><p>-  Le portail Client</p></Link>
+                                </div>
+                           
+                              </div>
                             </Popover.Button>
-                            <Transition
+                            {/* <Transition
                               as={Fragment}
                               enter="transition ease-out duration-700"
                               enterFrom="opacity-0 translate-y-1"
@@ -177,49 +208,51 @@ function Footers() {
                               <Popover.Panel className="absolute bg-white  top-full z-10 mt-0 w-[160px]  overflow-hidden hover:cursor-pointer  shadow-lg text-[#646464] ">
                                 <div className=" gap-y-3">
                                 
-                              <div className="w-full pl-2 py-3 mt-0 bg-[#ececec]" > <Link href="/web1/diasporabanking">
+                              <div className="w-full pl-2 py-3 mt-0 bg-[#ececec]" > <Link href="/web1/credit">
                   <div  className="w-full pl-2 py-3 mt-1 text-black  ">
 
                   <p className={` text-[15px] leading-6   border-b-[2px] w-fit hover:border-b-[#a22a2b] border-b-[#ececec] hover:text-[#a22a2b] `}  onClick={bodyproute}>
-                  À propos de nous</p> 
+                    Comptes</p> 
                  
                   </div> </Link>
-                  <Link href="/web1/portailclient">
+                  <Link href="/web1/cartebancaire">
                   <div  className="w-full pl-2 py-3 mt-1 text-black ">
 
                   <p className={`  text-[15px] leading-6   border-b-[2px] w-fit hover:border-b-[#a22a2b] border-b-[#ececec] hover:text-[#a22a2b] `}  onClick={bodyproute}>
-                  Le portail Client</p> 
+                  Cartes Bancaires</p> 
                  
                   </div> </Link>
-                  
-                  </div> 
+                  <Link href="/web1/packdiaspora">
+                  <div  className="w-full pl-2 py-3 mt-1 text-black ">
+
+                  <p className={` text-[15px] leading-6   border-b-[2px] w-fit hover:border-b-[#a22a2b] border-b-[#ececec] hover:text-[#a22a2b] `}  onClick={bodyproute}>
+                  Packs Diaspora</p> 
+                 
+                  </div> </Link></div> 
                                   
                                 </div>
 
                               </Popover.Panel>
-                            </Transition>
+                            </Transition> */}
                           </Popover>
                           </Popover.Group>
-                        {/* <p className='text-[12px] lg:text-[15px]'>Ouvrir un compte</p>
-                        <p className='mt-2 text-[12px] lg:text-[15px]'>Payer / Envoyer de l'argent</p>
-                        <p className='mt-2 text-[12px] lg:text-[15px]'>Epargner / Investir</p>
-                        <p className='mt-2 text-[12px] lg:text-[15px]'>Remboursement</p>
-                        <p className='mt-2 text-[12px] lg:text-[15px]'>EquityBCDC Online</p> */}
+                          
                     </div>
                     </div>
                    <div className='flex gap-x-9 lg:gap-x-0 md:block lg:flex lg:pb-10'>
                    <div className="px-0 md:px-6 gap-y-5 h-[270px] w-[200px] md:w-auto">
                         <p className='mt-2 lg:pb-3  text-[12px] lg:text-[15px] '>ACTUALITÉS</p>
+                        <p className='text-[12px] lg:text-[15px]'>Nouveautés</p>
                         <p className='text-[12px] lg:text-[15px]'>Communique de presse</p>
                        
                     </div>
-                    <div className="px-0 md:px-6 gap-y-5 h-[270px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
+                    {/* <div className="px-0 md:px-6 gap-y-5 h-[270px] md:mt-5 lg:mt-0 w-[200px] md:w-auto">
                         <p className='mt-2  lg:pb-3 text-[12px] lg:text-[15px] '>QUI SOMMES-NOUS?</p>
                         <p className='text-[12px] lg:text-[15px]'>A propos de EquityBCDC</p>
                         <p className='mt-2 text-[12px] lg:text-[15px]'>Nos partenaires</p>
                         <p className='mt-2 text-[12px] lg:text-[15px]'>Relations avec les investisseurs</p>
                         <p className='mt-2 text-[12px] lg:text-[15px]'>Carrieres</p>
-                    </div>
+                    </div> */}
                    </div>
 
                     <div id='footerss' className='flex gap-x-9 lg:gap-x-0 md:block lg:flex lg:pb-10'>
